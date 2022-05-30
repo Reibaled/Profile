@@ -4,7 +4,7 @@
 
 
 h1{
-    color: Orange;
+    color: rgb(0, 255, 238);
     background: white;
     font-family: 'Times New Roman', Times, serif;
     font-size: 60px;
@@ -12,24 +12,23 @@ h1{
     padding: 10px;
 }
 
-.intro{
-    color: blue;
+.intro,
+.about
+{
+    color: rgba(0, 255, 145, 0.423);
     background: ghostwhite;
     font-family: 'Times New Roman', Times, serif;
 }
 
-.about{
-    color: blueviolet;
-    background: whitesmoke;
-    font-family: 'Times New Roman', Times, serif;
-}
+
 
 hr {
-    color: yellow;
+    background-color: orange;
 }
 
 img {
-    height: 40px;
+    min-height: 100px;
+    min-width: 400px;
     margin: 5px;
-    padding: 10px
+    padding: 10px;
 }
