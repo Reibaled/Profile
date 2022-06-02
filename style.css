@@ -2,30 +2,53 @@
 	box-sizing: border-box;
 }
 
-
+body {
+    background-color: white;
+}
+/*setting for my name on top of my profile*/
 h1 {
-    color: rgb(0, 255, 238);
-    background: white;
+    color: rgb(0, 0, 0);
     font-family: 'Times New Roman', Times, serif;
     font-size: 60px;
     text-align: center;
     padding: 10px;
 }
 
+/* setting for the subtitle */
 h2 {
-    color: rgba(0, 255, 145, 0.423);
+    color: rgba(0, 98, 255, 0.84);
     font-size: 40px;
-    background: ghostwhite;
     font-family: 'Times New Roman', Times, serif;
+    text-align: center;
 }
 h3 {
-    color: rgba(0, 255, 145, 0.423);
+    color: rgba(0, 98, 255, 0.84);
     font-size: 20px;
-    background: ghostwhite;
     font-family: 'Times New Roman', Times, serif;
+    text-align: center;
 }
 
+/* setting for paragraph color */
+p {
+    color: darkslategray;
+}
 
+/* setting for bullet points */
+ol{
+    color: black;
+}
+
+ul{
+    color:rgba(0, 98, 255, 0.84)
+}
+
+.linkOne:hover {
+    color: red
+}
+
+.linkTwo:hover{
+    color: orange
+}
 
 
 
