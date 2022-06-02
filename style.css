@@ -3,7 +3,7 @@
 }
 
 
-h1{
+h1 {
     color: rgb(0, 255, 238);
     background: white;
     font-family: 'Times New Roman', Times, serif;
@@ -12,19 +12,22 @@ h1{
     padding: 10px;
 }
 
-.intro,
-.about
-{
+h2 {
     color: rgba(0, 255, 145, 0.423);
+    font-size: 40px;
+    background: ghostwhite;
+    font-family: 'Times New Roman', Times, serif;
+}
+h3 {
+    color: rgba(0, 255, 145, 0.423);
+    font-size: 20px;
     background: ghostwhite;
     font-family: 'Times New Roman', Times, serif;
 }
 
 
 
-hr {
-    background-color: orange;
-}
+
 
 img {
     min-height: 100px;
