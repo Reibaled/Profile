@@ -5,6 +5,11 @@
 body {
     background-color: white;
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+}
 /*setting for my name on top of my profile*/
 h1 {
     color: rgb(0, 0, 0);
@@ -53,8 +58,11 @@ ul{
 
 
 img {
-    min-height: 100px;
-    min-width: 400px;
+    min-height: 600px;
+    max-width: 1800px;
     margin: 5px;
     padding: 10px;
+
+    
 }
+
